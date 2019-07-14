@@ -1,4 +1,4 @@
-# FilmVote by Angela
+# FilmVote by Angela 🔝
 
 App en Angular 8 para votar películas a proyectar, elegidas popularmente por votación.
 
@@ -8,11 +8,11 @@ En la que encontratremos
   - Página de cada película con su información
   - Página de Ranking de las votaciones
 
-# 1er. Wireframes
+### 1er. Wireframes
 
 [![Wireframes](https://imgur.com/RyQdr95.jpg)](https://imgur.com/RyQdr95.jpg)
 
-# Primer commit!
+### Primer commit!
 
   14-07-19 - Modulo Films Funcional, se ve el listado de películas y funcionan los enlaces a cada una de las películas 🙂 
 
