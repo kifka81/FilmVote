@@ -1,0 +1,25 @@
+<div class="top-main">
+    <img src="assets/background.jpg" class="img-fluid">
+    <div class="back-films">
+      <h2 class="title-films">All Films</h2>
+    </div>
+  </div>
+
+<div class="container mb-5">
+      <div class="row justify-content-md-center">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3 mb-3" *ngFor="let film of films">
+              <a [routerLink]="['/film', film.id]">
+                <p class="text-center mt-3 bg-title text-light p-2">Ranking {{film.imdbRating}}</p>
+                <img class="img-fluid mx-auto" [src]="film.poster" alt="{{film.title}}">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+          
