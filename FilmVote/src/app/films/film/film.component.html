@@ -1,43 +1,47 @@
+<div class="container-fluid bg-single">
+    <h1 class="display-4 title-single">{{film.title}}</h1>
+</div>
 <div class="container mb-5">
     <div class="row justify-content-md-center">
-        <div class="col-md-12">
-            <div class="row mt-5">
-                <div class="my-5">
-                    <h1 class="display-4">{{film.title}}</h1>
-                    <hr>
-                    <div class="row">
-                  <div class="col-md-4">
-                    <img [src]="film.poster" class="img-fluid mb-2" alt="{{film.title}}">
-                    
-                  </div>
+        <div class="col-md-12 single-body">
+            <div class="row">
+              <div class="row">
+                <div class="col-md-4">
+                  <img [src]="film.poster" class="img-fluid mx-auto d-block mb-3" alt="{{film.title}}">
+                  <div class="plusinfo">
+                    <ul>
+                      <li>{{film.country}}</li>
+                      <li>{{film.year}}</li>
+                      <li>{{film.runtime}}</li>
+                      <li>{{film.released}}</li>
+                    </ul>
+                    </div>
+                </div>
                   <div class="col-md-8">
                     <div>
-                      <h3><strong>Synopsis</strong></h3>
                       <p class="text-justify">{{film.plot}}</p>
                     </div>
                     <div>
-                      <h3><strong>Director</strong></h3>
-                      <h5>{{film.director}}</h5>
+                      <h5><strong>Director</strong></h5>
+                      <p>{{film.director}}</p>
                     </div>
                     <div>
-                      <h3><strong>Actors</strong></h3>
-                      <h5>
-                        <ul>
-                          <li>{{film.actors}}</li>
-                        </ul>
-                      </h5>
+                      <h5><strong>Actors</strong></h5>
+                      <p>{{film.actors}}</p>
                     </div>
                     <div>
-                      <h3><strong>Year</strong></h3>
-                      <h5>{{film.year}}</h5>
+                      <h5><strong>Awards</strong></h5>
+                      <p>{{film.awards}}</p>
                     </div>
                     <div>
-                      <h3><strong>Genres</strong></h3>
-                      <ul>
-                        <li>
-                          <h5>{{film.genre}}</h5>
-                        </li>
-                      </ul>
+                      <h5><strong>Genres</strong></h5>
+                      <p>{{film.genre}}</p>
+                    </div>
+                    <div class="ms-auto">
+                        <div class="documents-tags documents my-5 clearfix">
+                            <a href="#"><i class="fas fa-star-half-alt"></i>Ranking {{film.imdbRating}}</a>
+                            <a href="#"><i class="fas fa-vote-yea"></i>Vote</a>
+                        </div>
                     </div>
                   </div>
                 </div>

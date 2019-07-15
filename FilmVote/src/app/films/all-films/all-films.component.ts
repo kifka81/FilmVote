@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Film, films } from 'src/app/films-list';
+import { films } from 'src/app/shared/films-list';
+import { FilmList } from 'src/app/shared/classes/film-list';
 import { FilmsService } from 'src/app/shared/services/films.service';
+
 
 @Component({
   selector: 'app-all-films',
@@ -9,7 +11,7 @@ import { FilmsService } from 'src/app/shared/services/films.service';
 })
 
 export class AllFilmsComponent implements OnInit {
-  films: Array<Film> = films;
+  films: Array<FilmList> = films;
 
   constructor(public api: FilmsService) { }
 

@@ -1,22 +1,6 @@
-export class Film {
-  id: number;
-  title: string;
-  year: number;
-  released: string;
-  runtime: string;
-  genres: string;
-  director: string;
-  actors: string;
-  plot: string;
-  language: string;
-  country: string;
-  awards: string;
-  poster: string;
-  imdbRating: number;
-}
+import { FilmList } from 'src/app/shared/classes/film-list';
 
-
-const films: Array<any> = [
+const films: FilmList[] = [
   {
   id: 1,
   title: 'Cold War',
@@ -153,7 +137,6 @@ const films: Array<any> = [
   runtime: '114 min',
   genre: 'Drama',
   director: 'Peter Mullan',
-  Writer: 'Peter Mullan',
   actors: 'Geraldine McEwan, Anne-Marie Duff, Nora-Jane Noone, Dorothy Duffy',
   plot: 'Three young Irish women struggle to maintain their spirits while they endure dehumanizing abuse as inmates of a Magdalene Sisters Asylum.',
   language: 'English, Latin',
@@ -202,7 +185,6 @@ const films: Array<any> = [
   runtime: '99 min',
   genre: 'Crime, Drama, Thriller',
   director: 'Quentin Tarantino',
-  Writer: 'Quentin Tarantino, Quentin Tarantino (background radio dialogue written by), Roger Avary (background radio dialogue written by)',
   actors: 'Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn',
   plot: 'When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.',
   language: 'English',
