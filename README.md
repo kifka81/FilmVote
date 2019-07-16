@@ -23,3 +23,15 @@ En la que encontratremos
 * Single Film
 
 [![singleFilm](https://imgur.com/bbkFpJe.jpg)](https://imgur.com/bbkFpJe.jpg)
+
+### Segundo commit! #- Esto parece un Puzzle -
+
+15/07/19 * Puesta en marcha del componente ranking & el buscador, al final del día funciona el ranking y el buscador no 😓 | Fatla integrar el ranking al proyecto.
+
+[![Rankig Module](https://imgur.com/OpHLOyx.jpg)](https://imgur.com/OpHLOyx.jpg)
+
+* Cambio de diseño de la página film, finalmente los colores de la App están definidos.
+
+[![singleFim_V2](https://imgur.com/5PqDZnt.jpg)](https://imgur.com/5PqDZnt.jpg)
+
+
