@@ -1,0 +1,92 @@
+a{
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus{
+    color: inherit;
+    text-decoration: none;
+  }
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;  
+    color: #999999;
+}
+h3{
+    text-align: center;
+    color: #5878a9;
+}
+.top-main {
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+.back-films {
+    position: absolute;
+    margin: auto;
+    transform: translate(0%,-12%);
+    top: 36%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.title-login{
+    margin: 0;
+    color: #ffffff;
+    font-size: 72px;
+    padding: 12px 0;
+    font-family: 'Prompt', sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgba(234, 130, 151, 0.5);
+}
+.single-body{
+    background-color: #fff;
+    padding: 37px 50px 70px 35px;
+    margin: -84px 0 20px 0;
+    -webkit-box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
+    -moz-box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
+    box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
+}
+.plusinfo {
+    margin-bottom: 20px;
+}
+.plusinfo ul {
+    padding: 10px 0px 0px;
+    margin: 0px;
+    text-align: center;
+}
+.plusinfo li {
+    font-weight: 400;
+    border-right: solid 1px #999;
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px;
+    color: #5878a9;
+}
+.documents-tags i {
+    padding-right: 4px;
+}
+.documents-tags button {
+    padding: 16px;
+    line-height: .9;
+    margin: 4px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    background-color: #5878a9;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.documents-tags button:hover {
+    background-color: #e496a8;
+    color: #fff;
+    border-color: transparent;
+}

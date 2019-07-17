@@ -1,9 +1,11 @@
-<div class="jumbotron bg-info">
-    <h1 class="display-1 text-light text-center">Films Ranking</h1>
-</div>
-      
+<div class="top-main">
+    <img src="assets/bg1.jpg" class="img-fluid">
+    <div class="back-films">
+        <h2 class="title-films">Films Ranking</h2>
+    </div>
+</div>     
+<h1 class="main-title">Vote for your favourite film</h1>
+<h2 class="second-title mb-5">The top 5 will be shown in our theatre</h2>
 <div class="ui grid posts">
-        <app-top-show *ngFor="let item of sortedItems()" [item]="item">
-  
-        </app-top-show>
-     </div>
+    <app-top-show *ngFor="let item of sortedItems()" [item]="item"></app-top-show>
+</div>

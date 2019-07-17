@@ -1,13 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, FormBuilder } from '@angular/forms';
 import { FilmsService } from 'src/app/shared/services/films.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonsModule } from './commons/commons.module';
 import { FilmsModule } from './films/films.module';
 import { RankingModule } from './ranking/ranking.module';
-/*import { SearchFilterPipe } from './shared/pipes/search-filter.pipe';*/
+import { HttpClientModule } from '@angular/common/http';
+
+
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -15,13 +18,15 @@ import { RankingModule } from './ranking/ranking.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     FormsModule,
     AppRoutingModule,
     CommonsModule,
     FilmsModule,
-    RankingModule
+    RankingModule,
+    UserModule
   ],
-  providers: [FilmsService],
+  providers: [FilmsService, FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,13 @@
-<div class="jumbotron bg-dark">
-    <h1 class="display-1 text-light text-center">FilmVote - Home</h1>
+<div class="top-main">
+    <img src="assets/bg_home.jpg" class="img-fluid">
+    <div class="back-films">
+        <h1><i class="fas fa-film"></i> FilmVote</h1>
+        <h3 class="title-home">Find your favourite movie from over 100 titles <br>and vote for it</h3>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="documents-tags documents text-center">
+            <a [routerLink]="['/films']"><i class="fas fa-star-half-alt"></i>See Films</a>
+            <a [routerLink]="['/ranking']"><i class="fas fa-vote-yea"></i>See Ranking</a>
+        </div>
+    </div>
 </div>
-      

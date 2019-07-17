@@ -942,5 +942,18 @@
     "imdbRating":"7.9"
   }
 ],
-"users": []
+"users": [
+	{
+      "email": "nilson@email.com",
+      "password": "$2a$10$es8WV1gU8oAszTn4SyNogO3wc4qUL4xuYYw67br67Gg8TnijsFNMC",
+      "user":"nilson",
+      "id": 1
+    },
+    {
+      "email": "mi@email.com",
+      "password": "$2a$10$7qQB7bP0Y2rg9HV6AVXAAOb25zMIcWNPqlVdeChADWS4uHPw8rPY2",
+      "user": "mi",
+      "id": 2
+    }
+]
 }

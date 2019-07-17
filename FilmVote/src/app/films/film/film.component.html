@@ -1,6 +1,10 @@
-<div class="container-fluid bg-single">
-    <h1 class="display-4 title-single">{{film.title}}</h1>
-</div>
+<div class="top-main">
+    <img src="assets/bg1.jpg" class="img-fluid">
+    <div class="back-films">
+        <h1 class="display-4 title-single">{{film.title}}</h1>
+    </div>
+  </div>
+
 <div class="container mb-5">
     <div class="row justify-content-md-center">
         <div class="col-md-12 single-body">
@@ -37,7 +41,7 @@
                       <h5><strong>Genres</strong></h5>
                       <p>{{film.genre}}</p>
                     </div>
-                    <div class="ms-auto">
+                    <div class="text-center">
                         <div class="documents-tags documents my-5 clearfix">
                             <a href="#"><i class="fas fa-star-half-alt"></i>Ranking {{film.imdbRating}}</a>
                             <a href="#"><i class="fas fa-vote-yea"></i>Vote</a>
@@ -47,7 +51,9 @@
                 </div>
               </div>
             </div>
-            <a class="btn btn-info float-right rounded-0" [routerLink]="['/films']">Back to Films List</a>
+            <div class="documents-tags documents my-5 clearfix">
+              <a [routerLink]="['/films']">Back to Films List</a>
+            </div>
         </div>
       </div>
       

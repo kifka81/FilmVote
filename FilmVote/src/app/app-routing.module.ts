@@ -9,13 +9,12 @@ import { NotFoundComponent } from './commons/not-found/not-found.component';
 import { ShowComponent } from './ranking/show/show.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: '', redirectTo: 'ranking', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'films', component: AllFilmsComponent},
   {path: 'film/:id', component: FilmComponent},
-  {path: 'show', component: ShowComponent},
+  {path: 'ranking', component: ShowComponent},
   {path: 'user/login', component: LoginComponent},
-  {path: 'user/register', component: RegisterComponent},
   {path: '**', component: NotFoundComponent}
 ];
 

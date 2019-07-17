@@ -7,10 +7,6 @@ a{
     color: inherit;
     text-decoration: none;
   }
-.container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
-}
 .container{
     font-family: 'Montserrat', sans-serif;  
     color: #999999;
@@ -19,23 +15,30 @@ h5{
     
     color: #5878a9;
 }
-.bg-single{
-    background-image: url('img/bg1.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 381px;
+.top-main {
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+.back-films {
+    position: absolute;
+    margin: auto;
+    transform: translate(0%,-12%);
+    top: 36%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
 }
 .title-single{
     position: absolute;
     margin: auto;
     -webkit-transform: translate(0%, -12%);
-    transform: translate(0%, -75%);
-    top: 34%;
+    transform: translate(0%, -12%);
+    top: 24%;
     text-align: center;
     width: 100%;
     z-index: 2;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Prompt", sans-serif;
     text-shadow: 2px 2px 1px rgba(234, 130, 151, 0.5);
     color: #fff;
     text-transform: uppercase;
@@ -43,7 +46,7 @@ h5{
 .single-body{
     background-color: #fff;
     padding: 37px 50px 70px 35px;
-    margin: -58px 0 20px 0;
+    margin: -84px 0 20px 0;
     -webkit-box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
     -moz-box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
     box-shadow: 0 1px 25px 0 rgba(3, 108, 179, 0.11);
