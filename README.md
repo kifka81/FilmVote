@@ -40,13 +40,13 @@ En la que encontratremos
 
 * Cogiendo con pinzas los modulos.
 
-FInalmente después de optar por hacer los modulos por separado, para despues integrarlos en el proyecto, me he dado cuenta lo importante que es tener muy,pero MUY claro desde el principio que irá conectado a qué!
+FInalmente después de optar por hacer los modulos por separado, para después integrarlos en el proyecto, me he dado cuenta lo importante que es tener desde el principio muy, pero MUY claro que irá conectado a qué!
 
 ### Last commit!
 
 Terminado, bueno 😒
 
-Los modulos que quería tener en el proyecto funcionan, visulamente, tienen el routing, falta hacer totas las pruebas y hacer el testing y muchas cosas más como el registro, etc.
+Los modulos que quería tener en el proyecto funcionan, visulamente, tienen el routing, falta hacer todas las pruebas y hacer el testing y muchas cosas más como el registro, etc.
 
 Problemas... Qué os voy a contar MUCHOS!!
 
