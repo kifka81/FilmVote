@@ -7,12 +7,11 @@ import { AppComponent } from './app.component';
 import { CommonsModule } from './commons/commons.module';
 import { FilmsModule } from './films/films.module';
 import { RankingModule } from './ranking/ranking.module';
-import { SearchFilterPipe } from './shared/pipes/search-filter.pipe';
+/*import { SearchFilterPipe } from './shared/pipes/search-filter.pipe';*/
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchFilterPipe
   ],
   imports: [
     BrowserModule,

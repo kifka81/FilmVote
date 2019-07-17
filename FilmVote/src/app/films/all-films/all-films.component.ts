@@ -12,7 +12,8 @@ import { FilmsService } from 'src/app/shared/services/films.service';
 
 export class AllFilmsComponent implements OnInit {
   films: Array<FilmList> = films;
-
+  searchTerm: string;
+  
   constructor(public api: FilmsService) { }
 
   ngOnInit() {

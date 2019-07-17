@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 
 import { RankingRoutingModule } from './ranking-routing.module';
 import { ShowComponent } from './show/show.component';
+import { TopShowComponent } from './show/top-show/top-show.component';
 
 @NgModule({
-  declarations: [ShowComponent],
+  declarations: [ShowComponent, TopShowComponent],
   imports: [
     CommonModule,
     RankingRoutingModule
   ],
-  exports: [ShowComponent]
+  exports: [ShowComponent, TopShowComponent]
 })
 export class RankingModule { }

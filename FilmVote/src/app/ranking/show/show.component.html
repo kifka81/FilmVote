@@ -2,3 +2,8 @@
     <h1 class="display-1 text-light text-center">Films Ranking</h1>
 </div>
       
+<div class="ui grid posts">
+        <app-top-show *ngFor="let item of sortedItems()" [item]="item">
+  
+        </app-top-show>
+     </div>
