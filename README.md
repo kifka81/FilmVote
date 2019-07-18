@@ -5,7 +5,7 @@
 App en Angular 8 para votar películas a proyectar, elegidas popularmente por votación.
 
 ## Disponible en: http://filmvote.com.mialias.net/home
-  * usuario: kifka_81 contraseña: GlobalServer8138  
+  * usuario: filmvo679 contraseña: 8mCY3SxP  
 ## API: https://apifilmvote.herokuapp.com/
 ## Presentación: https://docs.google.com/presentation/d/1e8aGbxsWupp9542XHJnMziK5WV16WxJlG41E6w5m8yI/edit#slide=id.p1
 
