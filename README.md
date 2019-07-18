@@ -5,6 +5,7 @@
 App en Angular 8 para votar películas a proyectar, elegidas popularmente por votación.
 
 ## Disponible en: http://filmvote.com.mialias.net/home
+## Presentación: https://docs.google.com/presentation/d/1e8aGbxsWupp9542XHJnMziK5WV16WxJlG41E6w5m8yI/edit#slide=id.p1
 
 En la que encontratremos
 
