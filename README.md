@@ -39,6 +39,10 @@ En la que encontratremos
 
 [![singleFim_V2](https://imgur.com/5PqDZnt.jpg)](https://imgur.com/5PqDZnt.jpg)
 
+## 2do. Wireframes
+
+[![wireframes_V2](https://imgur.com/AdDkjGj.jpg)](https://imgur.com/AdDkjGj.jpg)
+
 ### Tercer commit!
 
 * Cogiendo con pinzas los modulos.
